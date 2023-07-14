@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: testpod12
+spec:
+  containers:
+    - name: c12
+      image: ubuntu
+      command: ["/bin/bash", "-c", "while true; do echo Jai shree radhey krishna; sleep 5 ; done"]
+      ports:
+       - containerPort: 80

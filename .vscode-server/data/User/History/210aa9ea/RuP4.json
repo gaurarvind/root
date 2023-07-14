@@ -1,0 +1,26 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "xml.symbols.maxItemsComputed": 100000,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\MM\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\MM\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "[shellscript]": {
+        "files.eol": "\n"
+    },
+    "remote.SSH.remotePlatform": {
+        "35.154.126.111": "linux",
+        "13.234.238.246": "linux",
+        "3.110.190.100": "linux",
+        "13.233.184.6": "linux",
+        "65.0.94.148": "linux",
+        "13.126.45.159": "linux",
+        "3.110.178.123": "linux",
+        "43.205.126.51": "linux",
+        "13.233.18.169": "linux",
+        "13.232.64.127": "linux"
+    },
+    "codegpt.apiKey": "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"
+}

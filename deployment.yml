@@ -1,0 +1,20 @@
+
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+   name: mydeployments
+spec:
+   replicas: 2
+   selector:     
+    matchLabels:
+     name: deployment
+   template:
+     metadata:
+       name: deploymentpod
+       labels:
+         name: deployment
+     spec:
+      containers:
+        - name: c09
+          image: centos
+          command: ["/bin/bash", "-c", "while true; do echo jai shree radhey rani; sleep 5; done"]

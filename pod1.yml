@@ -1,0 +1,12 @@
+kind: Pod                              
+apiVersion: v1                     
+metadata:                           
+  name: testpod
+  annotations:
+    description: hamare pehle pod create hone jaa rha hai  
+spec:                                    
+  containers:                      
+    - name: c00                     
+      image: ubuntu             
+      command: ["/bin/bash", "-c", "while true; do echo I LOVE YOU ARVIND; sleep 5 ; done"]
+  restartPolicy: Never         # Defaults to Always

@@ -1,0 +1,27 @@
+2023-07-12 10:59:20.079 [info] 
+
+
+
+
+2023-07-12 10:59:20.079 [info] Extension host agent started.
+2023-07-12 10:59:20.105 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-07-12 10:59:20.121 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-07-12 10:59:20.182 [info] [127.0.0.1][ca423828][ManagementConnection] New connection established.
+2023-07-12 10:59:20.251 [info] [127.0.0.1][b271b1d2][ExtensionHostConnection] New connection established.
+2023-07-12 10:59:20.370 [info] [127.0.0.1][b271b1d2][ExtensionHostConnection] <65558> Launched Extension Host Process.
+2023-07-12 10:59:46.808 [info] [127.0.0.1][ca423828][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-12 10:59:46.855 [info] [127.0.0.1][b271b1d2][ExtensionHostConnection] <65558> Extension Host Process exited with code: 0, signal: null.
+2023-07-12 10:59:46.856 [info] Cancelling previous shutdown timeout
+2023-07-12 10:59:46.856 [info] Last EH closed, waiting before shutting down
+2023-07-12 10:59:55.993 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-07-12 10:59:55.993 [info] Cancelling previous shutdown timeout
+2023-07-12 10:59:56.203 [info] [127.0.0.1][a8d90349][ManagementConnection] New connection established.
+2023-07-12 10:59:56.294 [info] [127.0.0.1][901a3912][ExtensionHostConnection] New connection established.
+2023-07-12 10:59:56.302 [info] [127.0.0.1][901a3912][ExtensionHostConnection] <65737> Launched Extension Host Process.
+2023-07-12 11:04:55.993 [info] New EH opened, aborting shutdown
+2023-07-12 12:09:07.974 [error] Error: connect ECONNREFUSED 127.0.0.1:2376
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)
+2023-07-12 12:09:07.978 [error] Error: connect ECONNREFUSED 127.0.0.1:2376
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)
+2023-07-12 12:09:08.051 [error] Error: connect ECONNREFUSED 127.0.0.1:2376
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)

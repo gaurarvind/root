@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: testpod13
+spec:
+  containers:
+    - name: c13
+      image: httpd
+      command: ["/bin/bash", "-c", "while true; do echo Jai shree radhey krishna mere thakurani shree radhika rani; sleep 5 ; done"]
+      ports:
+       - containerPort: 80

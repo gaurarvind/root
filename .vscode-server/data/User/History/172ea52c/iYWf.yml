@@ -1,0 +1,13 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: delhipod
+  labels:                                                   
+    env: development
+    class: pods
+spec:
+    containers:
+       - name: labels001
+         image: ubuntu
+         command: ["/bin/bash", "-c", "while true; Create a Labels; sleep 5 ; done"]

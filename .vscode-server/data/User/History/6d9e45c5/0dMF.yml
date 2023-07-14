@@ -1,0 +1,19 @@
+---
+kind: ReplicationController               
+apiVersion: v1
+metadata:
+  name: myreplica
+spec:
+  replicas: 3            
+  selector:        
+    myname: RadheyShayam                             
+  template:                
+    metadata:
+      name: Radheypod
+      labels:            
+        myname: RadheyShayam
+    spec:
+     containers:
+       - name: c00
+         image: ubuntu
+         command: ["/bin/bash", "-c", "while true; do echo Jai Shree Radhey; sleep 5 ; done"]
